@@ -1,0 +1,44 @@
+footer {
+    border-top: 1px solid rgb(156, 154, 154);  
+    padding: 24px 0;
+    padding-left: 10px;
+  }
+  
+  .main-footer {
+    margin-top: 10%;
+  }
+  
+  .main-footer-alojamientos {
+    margin-top: 50px;
+  }
+  
+  .footer-contenedor {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 1200px;
+  }
+  
+  a {
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+    font-family: 'Circular Book';
+    font-size: 17px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    margin-top: 35px;
+  }

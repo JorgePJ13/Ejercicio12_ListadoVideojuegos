@@ -1,0 +1,9 @@
+<div>
+    <h2>Lista de Videojuegos lanzados en Pando S.A</h2>
+    <p>Estos son los videojuegos disponibles hasta el momento</p>
+    <ul>
+        <li *ngFor="let v of arrayVideojuegos">Título: {{v.titulo}} - Compañía: {{v.compania}} - Valoración Media: {{v.valoracion}} <img src="{{v.img}}" alt="Imagen Videojuego"></li>
+    </ul>
+    <button routerLink="/bienvenido">Volver a Inicio</button>
+    <button routerLink="/menu">Volver al Menú</button>
+</div>
