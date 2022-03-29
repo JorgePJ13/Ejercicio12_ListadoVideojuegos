@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { LoginComponent } from './componentes/login/login.component';
-import { LoginErrorComponent } from './componentes/loginError/loginError.component';
+import { LoginErrorPasswordComponent } from './componentes/loginErrorPassword/loginErrorPassword.component';
+import { LoginErrorUsuarioComponent } from './componentes/loginErrorUsuario/loginErrorUsuario.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 import { VideojuegosComponent } from './componentes/videojuegos/videojuegos.component';
@@ -34,13 +35,13 @@ const routes: Routes = [
      component : BienvenidoComponent
    },
    {
-     path : 'loginError',
-     component : LoginErrorComponent
+     path : 'loginErrorUsuario',
+     component : LoginErrorUsuarioComponent
    }, 
    {
-     path : 'loginError/:opcion',
-     component : LoginErrorComponent
-   }, 
+    path : 'loginErrorPassword',
+    component : LoginErrorPasswordComponent
+  }, 
    {
      path : 'contacto',
      component : ContactoComponent

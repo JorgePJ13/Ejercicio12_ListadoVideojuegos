@@ -1,3 +1,12 @@
+h1 {
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h5{
     margin-top: 50px;
 }
@@ -9,4 +18,54 @@ img {
 
 ul {
     list-style-type: upper-roman;
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-left: 30px;
+    width: 15%;
+    height: 15%;
+    margin-top: 30px;
+}
+
+.btn-inicio{
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: darkred;
+    cursor: all-scroll;
+    margin-left: 45%;
+}
+
+.btn-menu {
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: darkred;
+    cursor: all-scroll;
+}
+
+button:hover {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+i {
+    font-style: oblique;
 }

@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+h2 {
+    color: darkmagenta;
+}
+
+ul {
+    list-style: armenian;
+}
+
+li {
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 20px;
+}   
+
+.subr {
+    text-decoration: underline;
+}
+
+span {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    line-height: 20px;
+}
+
+button{
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: darkred;
+    cursor: pointer;
+}

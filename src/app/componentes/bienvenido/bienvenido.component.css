@@ -1,5 +1,26 @@
-.lista-vdj {
+h1 {
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+p {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lista-vdj {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.user-info{
+    font-style: oblique;
+}
+
+ol {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-weight: bold;
 }
 
 ul {
@@ -9,4 +30,42 @@ ul {
 img {
     width: 5%;
     height: 5%;
+}
+
+.detalles {
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    margin-right: 2%;
+    margin-top: 1%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: darkred;
+    cursor: all-scroll;
+    float: none;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    margin-right: 2%;
+    margin-top: 1%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: darkred;
+    cursor: all-scroll;
+    float: right;
+}
+
+button:hover {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+hr {
+    width: 20%;
+    float: left;
 }

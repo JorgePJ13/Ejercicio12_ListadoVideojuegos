@@ -2,12 +2,11 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
 @Component({
-    selector : 'app-loginError',
-    templateUrl : './loginError.component.html',
-    styleUrls : ['./loginError.component.css']
+    selector : 'app-loginErrorUsuario',
+    templateUrl : './loginErrorUsuario.component.html',
+    styleUrls : ['./loginErrorUsuario.component.css']
 })
-
-export class LoginErrorComponent implements OnInit {
+export class LoginErrorUsuarioComponent implements OnInit {
     
     errorUsuarioOculto : boolean = true; // no se muestra
     errorContrasenhaOculto : boolean = true; // no se muestra
@@ -31,5 +30,6 @@ export class LoginErrorComponent implements OnInit {
         if(this.opcion == 2) {
             this.errorContrasenhaOculto=false; // se muestra error contraseña
         }
+        
     }
 }

@@ -9,6 +9,8 @@ import { CabeceraComponent } from './componentes/cabecera/cabecera.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { LoginErrorPasswordComponent } from './componentes/loginErrorPassword/loginErrorPassword.component';
+import { LoginErrorUsuarioComponent } from './componentes/loginErrorUsuario/loginErrorUsuario.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 import { VideojuegosComponent } from './componentes/videojuegos/videojuegos.component';
@@ -23,7 +25,9 @@ import { VideojuegosComponent } from './componentes/videojuegos/videojuegos.comp
     VideojuegosComponent, 
     MenuComponent, 
     ContactoComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    LoginErrorUsuarioComponent,
+    LoginErrorPasswordComponent
   ],
   imports: [
     BrowserModule,

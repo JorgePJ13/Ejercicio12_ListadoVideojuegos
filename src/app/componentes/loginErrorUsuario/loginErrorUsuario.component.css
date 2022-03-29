@@ -1,0 +1,28 @@
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    font-style: oblique;
+    color: red;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: darkred;
+    cursor: all-scroll;
+    margin-left: 45%;
+}
+
+button:hover {
+    background-color: aquamarine;
+    font-weight: bold;
+}

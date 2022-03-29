@@ -1,20 +1,38 @@
 #Menu CSS in-line
 
-nav a{
-    font-size:14px;
+nav {
+    background-color: #000;
+}
+
+nav{
+    font-size:16px;
+    width: 100%;
+    margin-top: 5%;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
 } 
     
-nav li{
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: darkred;
+    cursor: cell;
+}
+
+li{    
     display:inline-block;
     width:10%;
     padding:5px 10px;
-    background-color:rgb(182, 219, 233);
-    border:1px solid #000;
+    background-color:rgb(114, 204, 236);
+    border: 3px double darkred;
+    border-radius: 20px;
     text-align:center;
-    color:#fff;
+    margin-right: 20px;
 }
     
 nav li:hover{
     background-color:rgb(142, 255, 198);
-    color:#000;
+    color:rgb(158, 35, 35);
+    font-weight: bold;
 }

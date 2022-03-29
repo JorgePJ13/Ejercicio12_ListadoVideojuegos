@@ -1,23 +1,23 @@
-<h1>Bienvenido a la pagina web de la empresa Pando S.A.</h1>
+<h1>Bienvenido a la página web de la empresa Pando S.A.</h1>
 
 <div class="datos">
     <p>Los datos de tu perfil de usuario son:</p>
     <ul>
-        <li>Usuario: </li>
-        <li>Contraseña: </li>
+        <li class="user-info">Usuario: </li>
+        <li class="user-info">Contraseña: </li>
     </ul> 
 </div>
 
 <div class="videojuegos">
-    <p>Estos son los videojuegos que ya han sido lanzados en nuestra empresa.</p>
+    <p>Estos son los videojuegos que ya han sido lanzados en nuestra empresa:</p>
     <ul>
         <li class="lista-vdj" *ngFor="let v of videojuegos">
             <ol>{{v.id}}</ol>
             <ol>Título: {{v.titulo}}</ol>
             <ol><img src="{{v.img}}" alt="Imagen Videojuego"></ol>
+            <hr><br>
         </li>   
     </ul>
-    <p>Puedes acceder a su información pulsando en este botón -> <button (click)="routingProgramatico()">Detalles</button></p>
+    <p>Puedes acceder a su <b>información</b> pulsando en este botón -> <button class="detalles" (click)="routingProgramatico()">Detalles</button><button routerLink="/menu">Volver a Menú</button></p>
 </div>
 
-<button routerLink="/menu">Volver a Menú</button>
