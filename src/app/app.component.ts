@@ -7,5 +7,5 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'VideojuegosDetalles';
+  title = 'Ejercicio22_VideojuegosCliente';
 }

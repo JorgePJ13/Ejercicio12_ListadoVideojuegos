@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Router } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
     selector : 'app-menu',
@@ -13,9 +13,17 @@ export class MenuComponent implements OnInit {
     imagen : string = ""
     compania : string = ""
     valoracion : number = 0;
+    usuario: string =""
+    password : string = ""
+    static username_Static: string ="";
+    static password_Static: string = ""
 
-    constructor(private router:Router) {
-
+    constructor(private router:Router, route:ActivatedRoute) {
+        this.usuario = route.snapshot.params["username"]
+        this.password = route.snapshot.params["password"]
+        //Actualizamos atributos estáticos
+        MenuComponent.username_Static = this.usuario;
+        MenuComponent.password_Static = this.password;
     }
 
     public routingProgramatico() {

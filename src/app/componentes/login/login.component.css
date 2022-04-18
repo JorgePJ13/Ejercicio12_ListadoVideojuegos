@@ -53,3 +53,14 @@ h1 {
   box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
   cursor: pointer;
 }
+
+.error{
+  margin-top: 3%;
+  padding:2%;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Gugi', cursive;
+  color : red
+}

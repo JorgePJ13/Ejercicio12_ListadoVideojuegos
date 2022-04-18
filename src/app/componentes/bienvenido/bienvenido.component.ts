@@ -2,6 +2,7 @@ import { Component, OnInit, ResolvedReflectiveFactory } from "@angular/core";
 import { Router } from "@angular/router";
 import { Usuario } from "src/app/entidades/Usuario";
 import { Videojuego } from "src/app/entidades/videojuego";
+import { MenuComponent } from "../menu/menu.component";
 
 @Component({
     selector : 'app-bienvenido',
@@ -25,6 +26,9 @@ export class BienvenidoComponent implements OnInit {
     usuario : string =""
     password : string = ""
 
+    username: string = MenuComponent.username_Static
+    contrasenia: string = MenuComponent.password_Static
+
     constructor(private router:Router) {
         let v : Videojuego = new Videojuego(1, "The Last Of Us", "./assets/TLOU.jpg");
         this.videojuegos.push(v);
@@ -32,9 +36,6 @@ export class BienvenidoComponent implements OnInit {
         this.videojuegos.push(v);
         v = new Videojuego(3, "Elden Ring", "./assets/ER.jpg", "From Software", 9.7)
         this.videojuegos.push(v)
-
-        let usuario : Usuario = new Usuario("JorgePJ13", "admin12345")
-        this.arrayUsuarios.push(usuario)
     }
 
     public routingProgramatico() {

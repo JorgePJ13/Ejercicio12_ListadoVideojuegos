@@ -3,11 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { LoginComponent } from './componentes/login/login.component';
-import { LoginErrorPasswordComponent } from './componentes/loginErrorPassword/loginErrorPassword.component';
-import { LoginErrorUsuarioComponent } from './componentes/loginErrorUsuario/loginErrorUsuario.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 import { VideojuegosComponent } from './componentes/videojuegos/videojuegos.component';
+
 
 const routes: Routes = [
    {
@@ -23,7 +22,11 @@ const routes: Routes = [
      component : VideojuegosComponent
    },
    {
-     path : 'menu',
+    path : 'menu',
+    component : MenuComponent
+  },
+   {
+     path : 'menu/:username/:password',
      component : MenuComponent
    },
    {
@@ -34,14 +37,6 @@ const routes: Routes = [
      path : 'bienvenido',
      component : BienvenidoComponent
    },
-   {
-     path : 'loginErrorUsuario',
-     component : LoginErrorUsuarioComponent
-   }, 
-   {
-    path : 'loginErrorPassword',
-    component : LoginErrorPasswordComponent
-  }, 
    {
      path : 'contacto',
      component : ContactoComponent
