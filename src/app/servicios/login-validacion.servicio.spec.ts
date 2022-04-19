@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { LoginValidacionServicio } from './login-validacion.servicio';
 
-describe('LoginValidationService', () => {
+describe('LoginValidacionServicio', () => {
   let service: LoginValidacionServicio;
 
   beforeEach(() => {

@@ -38,20 +38,14 @@ export class LoginComponent implements OnInit {
         usuarioNuevo = new Usuario('ElNano14', 'fernando.alonso');
         this.mapUsuarioPassword.set(usuarioNuevo.getNombre(), usuarioNuevo.getPassword());
         this.users.push(usuarioNuevo);
-    
         this._loginService = _loginService;
-        //USUARIOS BASE DE DATOS
-        /**
-         * pedro
-         * pswd11
-         */
       }
 
     ngOnInit() {
         
     }
 
-    LoginUser() {
+    login() {
         this._loginService.login(this.username, this.password).subscribe((respuesta) => {
           //'respuesta' objeto Json que contiene el body
   

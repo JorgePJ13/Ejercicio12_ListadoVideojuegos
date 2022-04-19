@@ -1,9 +1,9 @@
 <div class="login">
-    <form class="formulario" action="" method="post">
+    <form class="formulario">
         <h2>{{tituloLogin}}</h2>
         <input type="text" name="username" placeholder="Nombre de usuario" [(ngModel)]="username" required />
         <input type="password" name="password" placeholder="eg. X8df!90EO" [(ngModel)]="password" required />
-        <button type="submit" (click)="LoginUser()">Iniciar sesión</button>
+        <button type="submit" (click)="login()">Iniciar sesión</button>
     </form>
     <div class="error" [hidden]="error">{{errorMensaje}}</div>
 </div>
